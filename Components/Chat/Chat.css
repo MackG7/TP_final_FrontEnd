@@ -1,0 +1,44 @@
+.whatsapp-chat {
+    margin: 30px 150px;
+    width: 300px;
+    height: auto;
+    background-color: #beb4a4;
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container {
+    padding: 10px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.message {
+    max-width: 70%;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border-radius: 7.5px;
+    position: relative;
+}
+
+.message.received {
+    background-color: white;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.message.sent {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.message-time {
+    font-size: 11px;
+    color: #666;
+    text-align: right;
+    margin-top: 4px;
+}
